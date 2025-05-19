@@ -229,12 +229,18 @@ def on_key_up(key):
 
 # ===== GAME CONTROL =====
 def start_game():
-    global game_state, player , game_over , game_won
+    global game_state, player , game_over , game_won , enemies
     game_over = False
     game_won = False
     game_state = "running"
     player = Player()
     player.actor.pos = (300, 360)
+    enemies = [
+        Enemy(100, 352, 100, 280),
+        Enemy(400, 252, 400, 580),
+        Enemy(150, 102, 150, 300),
+        Enemy(435, 52, 360, 510),
+    ]
 
 def reset_game():
     global game_state, game_over , game_won , delay_reset_scheduled
