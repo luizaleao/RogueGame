@@ -7,10 +7,6 @@ Um pequeno jogo de plataforma 2D desenvolvido com [Pygame Zero](https://pygame-z
 
 Sky Jumper é um jogo onde o objetivo é pular entre plataformas, evitar inimigos e alcançar a plataforma mais alta da tela. Se o jogador colidir com um inimigo, o jogo exibe uma mensagem de **Game Over** e retorna ao menu. Se o jogador alcançar a plataforma final, recebe a mensagem **You Win!**.
 
-## 📷 Captura de Tela
-
-*(adicione uma imagem aqui, se quiser)*
-
 ## 🕹️ Controles
 
 - `←` ou `→`: move o personagem para os lados
